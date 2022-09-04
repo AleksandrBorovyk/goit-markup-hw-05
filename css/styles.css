@@ -295,9 +295,9 @@ body {
         transform: translateY(100%);
         transition: transform 250ms linear;
 }
-.portfolio-link .overlay:hover,
-.portfolio-link .overlay:focus {
-    transform: translateY(0);
+.portfolio-link:hover .overlay,
+.portfolio-link:focus .overlay {
+    transform: translateY(0%);
 }
 .hero-box {
         display: block;
